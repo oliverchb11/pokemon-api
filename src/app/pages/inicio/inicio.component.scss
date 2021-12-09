@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    gap: 1em;
+    padding: 5px;
+}
+
+.container_title {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 200px;
+    width: 545px;
+}
+
+.container_pokebola-close {
+    background-image: url(https://freepngimg.com/download/pokemon/37458-9-pokeball-transparent.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 224px;
+    width: 206px;
+    cursor: pointer;
+}
+
+.container_pokebola-open {
+    background-image: url(https://cdn.pixabay.com/photo/2019/11/18/15/46/pokemon-4635112_640.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 224px;
+    width: 178px;
+    cursor: pointer;
+}
+
+.container_pokebola-texto {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    color: yellow,
+}
