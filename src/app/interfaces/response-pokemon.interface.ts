@@ -11,7 +11,7 @@ export interface ResponsePokemon {
     moves: Move[];
     name: string;
     order: number;
-    past_types:               any[];
+    past_types: any[];
     species:                  Species;
     sprites:                  Sprites;
     stats:                    Stat[];
